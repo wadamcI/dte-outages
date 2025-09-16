@@ -1,0 +1,85 @@
+name: Fetch latest outages
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+  - cron: '*/15 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+   dte:
+    name: DTE outages (layer 2, GeoJSON + pagination)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install CLI tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq curl
+
+      - name: Fetch DTE (text=%25, outFields=*, GeoJSON)
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p dte
+
+          BASE='https://outagemap.serv.dteenergy.com/GISRest/services/OMP/OutageLocations/MapServer/2/query'
+          # Working query pattern you confirmed:
+          COMMON='text=%25&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson&orderByFields=OBJECTID%20ASC&resultRecordCount=1000'
+
+          OFF=0
+          PARTS=()
+          while :; do
+            F="dte/part-$OFF.json"
+            URL="$BASE?$COMMON&resultOffset=$OFF"
+            echo "Fetching DTE offset=$OFF"
+            curl -sS "$URL" -o "$F"
+
+            # Validate JSON & count
+            if ! jq -e . >/dev/null 2>&1 < "$F"; then
+              echo "DTE: invalid JSON at offset $OFF; aborting without failing the job."
+              exit 0
+            fi
+            CNT=$(jq '.features | length' "$F")
+            PARTS+=("$F")
+            (( CNT < 1000 )) && break
+            OFF=$((OFF + CNT))
+          done
+
+          # Merge all pages
+          jq -s '{type:"FeatureCollection", features: map(.features[]) }' "${PARTS[@]}" > dte/outages-new.geojson
+
+          # Normalize (stable sort + keys)
+          jq -S '.features |= sort_by(.properties.OBJECTID // .properties.JOB_ID // 0)' dte/outages-new.geojson > dte/outages-new.sorted.geojson
+
+          # Baseline file for first run
+          if [ ! -f dte/outages.geojson ]; then
+            echo '{"type":"FeatureCollection","features":[]}' > dte/outages.geojson
+          fi
+          jq -S '.features |= sort_by(.properties.OBJECTID // .properties.JOB_ID // 0)' dte/outages.geojson > dte/outages-old.sorted.geojson
+
+          if diff -q dte/outages-old.sorted.geojson dte/outages-new.sorted.geojson >/dev/null; then
+            echo "DTE: no changes."
+            exit 0
+          fi
+
+          mv dte/outages-new.geojson dte/outages.geojson
+
+          NEW_C=$(jq '.features|length' dte/outages-new.sorted.geojson)
+          OLD_C=$(jq '.features|length' dte/outages-old.sorted.geojson)
+          printf "DTE outage update: %s features=%s (prev=%s)\n" \
+            "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" "$NEW_C" "$OLD_C" > dte-message.txt
+
+      - name: Commit & push (DTE)
+        if: success()
+        run: |
+          git config user.name  "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git add dte/outages.geojson dte/*.json || true
+          git commit -F dte-message.txt || exit 0
+          git pull --rebase
+          git push
