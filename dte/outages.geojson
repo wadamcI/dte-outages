@@ -511,36 +511,44 @@
         "coordinates": [
           [
             [
-              -83.523377512267729,
-              42.526793648029198
+              -83.524973769120265,
+              42.527581613365562
             ],
             [
-              -83.520332318675997,
-              42.527046061899782
+              -83.523959284601915,
+              42.527639681346066
             ],
             [
-              -83.518512199858009,
-              42.52804734069683
+              -83.522107042029376,
+              42.528006217925252
             ],
             [
-              -83.518818881102746,
-              42.530627932770102
+              -83.521290765388585,
+              42.528768941696882
             ],
             [
-              -83.519017019810022,
-              42.53064892755701
+              -83.521277725443923,
+              42.528906514310009
             ],
             [
-              -83.525400164351325,
-              42.528374678131755
+              -83.521476951112675,
+              42.52898106023806
             ],
             [
-              -83.525119098566933,
-              42.527624889950843
+              -83.525342984786874,
+              42.528406552430191
             ],
             [
-              -83.523377512267729,
-              42.526793648029198
+              -83.525438633805067,
+              42.528241235941117
+            ],
+            [
+              -83.525147541025461,
+              42.527654462807547
+            ],
+            [
+              -83.524973769120265,
+              42.527581613365562
             ]
           ]
         ]
@@ -548,18 +556,18 @@
       "properties": {
         "OBJECTID": 7,
         "JOB_ID": "NW25111000869",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
-        "NUM_CUST": 153,
-        "NUM_CUST_RESTORED": 0,
-        "TOAL_CUST_AFFECTED": 153,
-        "OFF_DTTM": 1762747041000,
+        "NUM_CUST": 40,
+        "NUM_CUST_RESTORED": 120,
+        "TOAL_CUST_AFFECTED": 160,
+        "OFF_DTTM": 1762747039000,
         "EST_REP_DTTM": 1762827300000,
         "CAUSE": "Equipment problem",
         "DEV_NAME": null,
         "DEV_ID": null,
         "DEV_TYPE": null,
-        "DEV_TYPE_NAME": "Device (I)",
+        "DEV_TYPE_NAME": "Device (II)",
         "EVENT_STATUS": "In Progres",
         "DISPATCH_DTTM": null,
         "CREW_STATUS": null,
@@ -568,13 +576,82 @@
         "CIRCUIT_EST_ENDDTTM": null,
         "STORM_MODE": "NORMAL",
         "SERVICE_CENTER": "PON",
-        "SHAPE_Length": 2145.3046274478743,
-        "SHAPE_Area": 270301.99977123953
+        "SHAPE_Length": 1102.00922613855,
+        "SHAPE_Area": 56810.533247563661
       }
     },
     {
       "type": "Feature",
       "id": 8,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.522213416932075,
+              42.527010298193957
+            ],
+            [
+              -83.520326774274054,
+              42.527047576603685
+            ],
+            [
+              -83.518498958690728,
+              42.528060055928044
+            ],
+            [
+              -83.518836079348858,
+              42.530637659285375
+            ],
+            [
+              -83.519023237948417,
+              42.530646729774176
+            ],
+            [
+              -83.52158771608218,
+              42.529631886692101
+            ],
+            [
+              -83.522405722878204,
+              42.527171864289642
+            ],
+            [
+              -83.522213416932075,
+              42.527010298193957
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "JOB_ID": "NW25111000938",
+        "ADD_DTTM": 1762824616000,
+        "TYCOD": "OUTAGE",
+        "NUM_CUST": 68,
+        "NUM_CUST_RESTORED": 0,
+        "TOAL_CUST_AFFECTED": 68,
+        "OFF_DTTM": 1762819392000,
+        "EST_REP_DTTM": 1762835700000,
+        "CAUSE": "Determined upon crew arrival",
+        "DEV_NAME": null,
+        "DEV_ID": null,
+        "DEV_TYPE": null,
+        "DEV_TYPE_NAME": "Device (II)",
+        "EVENT_STATUS": "In Progres",
+        "DISPATCH_DTTM": null,
+        "CREW_STATUS": null,
+        "EST_REP_ENDDTTM": 1762835700000,
+        "CIRCUIT_EST_DTTM": null,
+        "CIRCUIT_EST_ENDDTTM": null,
+        "STORM_MODE": "NORMAL",
+        "SERVICE_CENTER": "PON",
+        "SHAPE_Length": 1615.7814607227908,
+        "SHAPE_Area": 161203.30794130175
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -607,7 +684,7 @@
         ]
       },
       "properties": {
-        "OBJECTID": 8,
+        "OBJECTID": 9,
         "JOB_ID": "SE23071601620",
         "ADD_DTTM": null,
         "TYCOD": null,
@@ -635,7 +712,7 @@
     },
     {
       "type": "Feature",
-      "id": 9,
+      "id": 10,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -676,7 +753,7 @@
         ]
       },
       "properties": {
-        "OBJECTID": 9,
+        "OBJECTID": 10,
         "JOB_ID": "SW24091400004",
         "ADD_DTTM": null,
         "TYCOD": null,
@@ -704,7 +781,7 @@
     },
     {
       "type": "Feature",
-      "id": 10,
+      "id": 11,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -741,7 +818,7 @@
         ]
       },
       "properties": {
-        "OBJECTID": 10,
+        "OBJECTID": 11,
         "JOB_ID": "SW25033007356",
         "ADD_DTTM": null,
         "TYCOD": null,
@@ -769,7 +846,137 @@
     },
     {
       "type": "Feature",
-      "id": 11,
+      "id": 12,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.480200890045055,
+              42.467339615617469
+            ],
+            [
+              -83.480029227384179,
+              42.467449066636703
+            ],
+            [
+              -83.479920732457416,
+              42.468371275535915
+            ],
+            [
+              -83.482329381635452,
+              42.471033692963104
+            ],
+            [
+              -83.482535007800621,
+              42.471059508408416
+            ],
+            [
+              -83.484364867051212,
+              42.470332740581988
+            ],
+            [
+              -83.484402493885199,
+              42.469480009615509
+            ],
+            [
+              -83.480200890045055,
+              42.467339615617469
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "JOB_ID": "SW25111000950",
+        "ADD_DTTM": 1762824616000,
+        "TYCOD": "OUTAGE",
+        "NUM_CUST": 55,
+        "NUM_CUST_RESTORED": 0,
+        "TOAL_CUST_AFFECTED": 55,
+        "OFF_DTTM": 1762822617000,
+        "EST_REP_DTTM": 1762839000000,
+        "CAUSE": "Determined upon crew arrival",
+        "DEV_NAME": null,
+        "DEV_ID": null,
+        "DEV_TYPE": null,
+        "DEV_TYPE_NAME": "Device (I)",
+        "EVENT_STATUS": "In Progres",
+        "DISPATCH_DTTM": null,
+        "CREW_STATUS": null,
+        "EST_REP_ENDDTTM": 1762839000000,
+        "CIRCUIT_EST_DTTM": null,
+        "CIRCUIT_EST_ENDDTTM": null,
+        "STORM_MODE": "NORMAL",
+        "SERVICE_CENTER": "WWS",
+        "SHAPE_Length": 1599.7428564390823,
+        "SHAPE_Area": 136484.03667949376
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.483922500672705,
+              42.466782949878287
+            ],
+            [
+              -83.480863791029194,
+              42.469595550433112
+            ],
+            [
+              -83.481255089082111,
+              42.471247197507296
+            ],
+            [
+              -83.481493723842405,
+              42.471183205723143
+            ],
+            [
+              -83.484102008320988,
+              42.466974675455354
+            ],
+            [
+              -83.483922500672705,
+              42.466782949878287
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "JOB_ID": "SW25111000951",
+        "ADD_DTTM": 1762824616000,
+        "TYCOD": "OUTAGE",
+        "NUM_CUST": 19,
+        "NUM_CUST_RESTORED": 0,
+        "TOAL_CUST_AFFECTED": 19,
+        "OFF_DTTM": 1762822617000,
+        "EST_REP_DTTM": 1762839000000,
+        "CAUSE": "Determined upon crew arrival",
+        "DEV_NAME": null,
+        "DEV_ID": null,
+        "DEV_TYPE": null,
+        "DEV_TYPE_NAME": "Device (I)",
+        "EVENT_STATUS": "In Progres",
+        "DISPATCH_DTTM": null,
+        "CREW_STATUS": null,
+        "EST_REP_ENDDTTM": 1762839000000,
+        "CIRCUIT_EST_DTTM": null,
+        "CIRCUIT_EST_ENDDTTM": null,
+        "STORM_MODE": "NORMAL",
+        "SERVICE_CENTER": "WWS",
+        "SHAPE_Length": 1558.9545333490514,
+        "SHAPE_Area": 69740.795594690368
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -814,7 +1021,7 @@
         ]
       },
       "properties": {
-        "OBJECTID": 11,
+        "OBJECTID": 14,
         "JOB_ID": "NE24010100323",
         "ADD_DTTM": null,
         "TYCOD": null,
@@ -842,80 +1049,7 @@
     },
     {
       "type": "Feature",
-      "id": 12,
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -82.919298452789462,
-              43.022871227746109
-            ],
-            [
-              -82.919088297318638,
-              43.022480535522604
-            ],
-            [
-              -82.918538640654162,
-              43.022313002072814
-            ],
-            [
-              -82.918006157082971,
-              43.022467191760406
-            ],
-            [
-              -82.917777816117521,
-              43.022870484971364
-            ],
-            [
-              -82.917987964401831,
-              43.023261179310516
-            ],
-            [
-              -82.918537627354524,
-              43.023428716083501
-            ],
-            [
-              -82.919070118112217,
-              43.023274523556843
-            ],
-            [
-              -82.919298452789462,
-              43.022871227746109
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "OBJECTID": 12,
-        "JOB_ID": "NE25111000307",
-        "ADD_DTTM": 1762818317000,
-        "TYCOD": "OUTAGE",
-        "NUM_CUST": 1,
-        "NUM_CUST_RESTORED": 0,
-        "TOAL_CUST_AFFECTED": 1,
-        "OFF_DTTM": 1762784963000,
-        "EST_REP_DTTM": 1762844400000,
-        "CAUSE": "Equipment problem",
-        "DEV_NAME": null,
-        "DEV_ID": null,
-        "DEV_TYPE": null,
-        "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "In Progres",
-        "DISPATCH_DTTM": null,
-        "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762844400000,
-        "CIRCUIT_EST_DTTM": null,
-        "CIRCUIT_EST_ENDDTTM": null,
-        "STORM_MODE": "NORMAL",
-        "SERVICE_CENTER": "MAR",
-        "SHAPE_Length": 520.86902444456814,
-        "SHAPE_Area": 20465.424328670211
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 13,
+      "id": 15,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -960,9 +1094,9 @@
         ]
       },
       "properties": {
-        "OBJECTID": 13,
+        "OBJECTID": 15,
         "JOB_ID": "NE25111000573",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -988,7 +1122,7 @@
     },
     {
       "type": "Feature",
-      "id": 14,
+      "id": 16,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1033,16 +1167,16 @@
         ]
       },
       "properties": {
-        "OBJECTID": 14,
+        "OBJECTID": 16,
         "JOB_ID": "NE25111000709",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
         "TOAL_CUST_AFFECTED": 1,
         "OFF_DTTM": 1762801804000,
-        "EST_REP_DTTM": 1762818600000,
-        "CAUSE": "Determined upon crew arrival",
+        "EST_REP_DTTM": 1762861800000,
+        "CAUSE": "Equipment problem",
         "DEV_NAME": null,
         "DEV_ID": null,
         "DEV_TYPE": null,
@@ -1050,7 +1184,7 @@
         "EVENT_STATUS": "In Progres",
         "DISPATCH_DTTM": null,
         "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762818600000,
+        "EST_REP_ENDDTTM": 1762861800000,
         "CIRCUIT_EST_DTTM": null,
         "CIRCUIT_EST_ENDDTTM": null,
         "STORM_MODE": "NORMAL",
@@ -1061,80 +1195,7 @@
     },
     {
       "type": "Feature",
-      "id": 15,
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -83.65076530032664,
-              43.398011219980518
-            ],
-            [
-              -83.650549214178298,
-              43.397621922145596
-            ],
-            [
-              -83.649994224216002,
-              43.397457915241596
-            ],
-            [
-              -83.649460343764559,
-              43.397615477853037
-            ],
-            [
-              -83.649235420888772,
-              43.398020168696405
-            ],
-            [
-              -83.649451498952274,
-              43.398409469194398
-            ],
-            [
-              -83.65000649699941,
-              43.398573478744495
-            ],
-            [
-              -83.65054038373907,
-              43.398415914055235
-            ],
-            [
-              -83.65076530032664,
-              43.398011219980518
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "OBJECTID": 15,
-        "JOB_ID": "NE25111000821",
-        "ADD_DTTM": 1762818317000,
-        "TYCOD": "OUTAGE",
-        "NUM_CUST": 1,
-        "NUM_CUST_RESTORED": 0,
-        "TOAL_CUST_AFFECTED": 1,
-        "OFF_DTTM": 1762808122000,
-        "EST_REP_DTTM": 1762824300000,
-        "CAUSE": "Determined upon crew arrival",
-        "DEV_NAME": null,
-        "DEV_ID": null,
-        "DEV_TYPE": null,
-        "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "In Progres",
-        "DISPATCH_DTTM": null,
-        "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762824300000,
-        "CIRCUIT_EST_DTTM": null,
-        "CIRCUIT_EST_ENDDTTM": null,
-        "STORM_MODE": "NORMAL",
-        "SERVICE_CENTER": "NAE",
-        "SHAPE_Length": 524.04017702059025,
-        "SHAPE_Area": 20715.380420352471
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 16,
+      "id": 17,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1179,9 +1240,9 @@
         ]
       },
       "properties": {
-        "OBJECTID": 16,
+        "OBJECTID": 17,
         "JOB_ID": "NE25111000892",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -1207,153 +1268,7 @@
     },
     {
       "type": "Feature",
-      "id": 17,
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -83.680688526495416,
-              43.435687795290171
-            ],
-            [
-              -83.680472118750217,
-              43.435298557608476
-            ],
-            [
-              -83.679916707478029,
-              43.435134697075377
-            ],
-            [
-              -83.679382576396634,
-              43.435292395861893
-            ],
-            [
-              -83.679157711911344,
-              43.435697140261837
-            ],
-            [
-              -83.679374113368311,
-              43.436086379945905
-            ],
-            [
-              -83.679929530928703,
-              43.436250243120419
-            ],
-            [
-              -83.680463669196655,
-              43.43609254161165
-            ],
-            [
-              -83.680688526495416,
-              43.435687795290171
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "OBJECTID": 17,
-        "JOB_ID": "NE25111000893",
-        "ADD_DTTM": 1762818317000,
-        "TYCOD": "OUTAGE",
-        "NUM_CUST": 1,
-        "NUM_CUST_RESTORED": 0,
-        "TOAL_CUST_AFFECTED": 1,
-        "OFF_DTTM": 1762813454000,
-        "EST_REP_DTTM": 1762829700000,
-        "CAUSE": "Determined upon crew arrival",
-        "DEV_NAME": null,
-        "DEV_ID": null,
-        "DEV_TYPE": null,
-        "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "In Progres",
-        "DISPATCH_DTTM": null,
-        "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762829700000,
-        "CIRCUIT_EST_DTTM": null,
-        "CIRCUIT_EST_ENDDTTM": null,
-        "STORM_MODE": "NORMAL",
-        "SERVICE_CENTER": "NAE",
-        "SHAPE_Length": 524.36085001204935,
-        "SHAPE_Area": 20740.740988812729
-      }
-    },
-    {
-      "type": "Feature",
       "id": 18,
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -83.071963994815334,
-              42.456489650072868
-            ],
-            [
-              -83.071754793355339,
-              42.456099208805149
-            ],
-            [
-              -83.07120971989545,
-              42.455932394093402
-            ],
-            [
-              -83.070682452841126,
-              42.456087304087696
-            ],
-            [
-              -83.070457174232487,
-              42.456490929878207
-            ],
-            [
-              -83.070666369404279,
-              42.456881373342952
-            ],
-            [
-              -83.071211449152372,
-              42.457048190828964
-            ],
-            [
-              -83.071738723393224,
-              42.456893277909458
-            ],
-            [
-              -83.071963994815334,
-              42.456489650072868
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "OBJECTID": 18,
-        "JOB_ID": "NE25111000923",
-        "ADD_DTTM": 1762818317000,
-        "TYCOD": "OUTAGE",
-        "NUM_CUST": 1,
-        "NUM_CUST_RESTORED": 0,
-        "TOAL_CUST_AFFECTED": 1,
-        "OFF_DTTM": 1762816580000,
-        "EST_REP_DTTM": 1762833600000,
-        "CAUSE": "Determined upon crew arrival",
-        "DEV_NAME": null,
-        "DEV_ID": null,
-        "DEV_TYPE": null,
-        "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "In Progres",
-        "DISPATCH_DTTM": null,
-        "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762833600000,
-        "CIRCUIT_EST_DTTM": null,
-        "CIRCUIT_EST_ENDDTTM": null,
-        "STORM_MODE": "NORMAL",
-        "SERVICE_CENTER": "MTC",
-        "SHAPE_Length": 516.15405486243765,
-        "SHAPE_Area": 20096.586685487877
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 19,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1398,7 +1313,7 @@
         ]
       },
       "properties": {
-        "OBJECTID": 19,
+        "OBJECTID": 18,
         "JOB_ID": "NW24120601627",
         "ADD_DTTM": null,
         "TYCOD": null,
@@ -1426,7 +1341,7 @@
     },
     {
       "type": "Feature",
-      "id": 20,
+      "id": 19,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1471,7 +1386,7 @@
         ]
       },
       "properties": {
-        "OBJECTID": 20,
+        "OBJECTID": 19,
         "JOB_ID": "NW25090600015",
         "ADD_DTTM": null,
         "TYCOD": null,
@@ -1499,7 +1414,7 @@
     },
     {
       "type": "Feature",
-      "id": 21,
+      "id": 20,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1544,9 +1459,9 @@
         ]
       },
       "properties": {
-        "OBJECTID": 21,
+        "OBJECTID": 20,
         "JOB_ID": "NW25111000168",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -1572,7 +1487,7 @@
     },
     {
       "type": "Feature",
-      "id": 22,
+      "id": 21,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1617,9 +1532,9 @@
         ]
       },
       "properties": {
-        "OBJECTID": 22,
+        "OBJECTID": 21,
         "JOB_ID": "NW25111000479",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -1645,7 +1560,7 @@
     },
     {
       "type": "Feature",
-      "id": 23,
+      "id": 22,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1690,9 +1605,9 @@
         ]
       },
       "properties": {
-        "OBJECTID": 23,
+        "OBJECTID": 22,
         "JOB_ID": "NW25111000646",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "PRIORITY",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -1718,7 +1633,7 @@
     },
     {
       "type": "Feature",
-      "id": 24,
+      "id": 23,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1763,15 +1678,15 @@
         ]
       },
       "properties": {
-        "OBJECTID": 24,
+        "OBJECTID": 23,
         "JOB_ID": "NW25111000721",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
         "TOAL_CUST_AFFECTED": 1,
         "OFF_DTTM": 1762780483000,
-        "EST_REP_DTTM": 1762818900000,
+        "EST_REP_DTTM": 1762862100000,
         "CAUSE": "Equipment problem",
         "DEV_NAME": null,
         "DEV_ID": null,
@@ -1780,7 +1695,7 @@
         "EVENT_STATUS": "Pending",
         "DISPATCH_DTTM": null,
         "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762818900000,
+        "EST_REP_ENDDTTM": 1762862100000,
         "CIRCUIT_EST_DTTM": null,
         "CIRCUIT_EST_ENDDTTM": null,
         "STORM_MODE": "NORMAL",
@@ -1791,80 +1706,7 @@
     },
     {
       "type": "Feature",
-      "id": 25,
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -83.009665849624596,
-              42.554430546511689
-            ],
-            [
-              -83.009456709250031,
-              42.55403999317884
-            ],
-            [
-              -83.008910945883997,
-              42.553872881095948
-            ],
-            [
-              -83.008382693377811,
-              42.554027500948045
-            ],
-            [
-              -83.008156656591055,
-              42.554431001120655
-            ],
-            [
-              -83.008365790677416,
-              42.554821556638693
-            ],
-            [
-              -83.008911560331654,
-              42.554988671475151
-            ],
-            [
-              -83.009439819126058,
-              42.554834049372225
-            ],
-            [
-              -83.009665849624596,
-              42.554430546511689
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "OBJECTID": 25,
-        "JOB_ID": "NW25111000887",
-        "ADD_DTTM": 1762818317000,
-        "TYCOD": "OUTAGE",
-        "NUM_CUST": 1,
-        "NUM_CUST_RESTORED": 0,
-        "TOAL_CUST_AFFECTED": 1,
-        "OFF_DTTM": 1762797119000,
-        "EST_REP_DTTM": 1762828800000,
-        "CAUSE": "Determined upon crew arrival",
-        "DEV_NAME": null,
-        "DEV_ID": null,
-        "DEV_TYPE": null,
-        "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "In Progres",
-        "DISPATCH_DTTM": null,
-        "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762828800000,
-        "CIRCUIT_EST_DTTM": null,
-        "CIRCUIT_EST_ENDDTTM": null,
-        "STORM_MODE": "NORMAL",
-        "SERVICE_CENTER": "SBY",
-        "SHAPE_Length": 516.96329712542547,
-        "SHAPE_Area": 20159.652759872795
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 26,
+      "id": 24,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1909,9 +1751,9 @@
         ]
       },
       "properties": {
-        "OBJECTID": 26,
+        "OBJECTID": 24,
         "JOB_ID": "NW25111000894",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -1923,7 +1765,7 @@
         "DEV_ID": null,
         "DEV_TYPE": null,
         "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "PC3 Verifi",
+        "EVENT_STATUS": "Pending",
         "DISPATCH_DTTM": null,
         "CREW_STATUS": null,
         "EST_REP_ENDDTTM": 1762829700000,
@@ -1937,7 +1779,7 @@
     },
     {
       "type": "Feature",
-      "id": 27,
+      "id": 25,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1982,7 +1824,7 @@
         ]
       },
       "properties": {
-        "OBJECTID": 27,
+        "OBJECTID": 25,
         "JOB_ID": "SE24120700174",
         "ADD_DTTM": null,
         "TYCOD": null,
@@ -2010,7 +1852,7 @@
     },
     {
       "type": "Feature",
-      "id": 28,
+      "id": 26,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2055,7 +1897,7 @@
         ]
       },
       "properties": {
-        "OBJECTID": 28,
+        "OBJECTID": 26,
         "JOB_ID": "SE25071900674",
         "ADD_DTTM": null,
         "TYCOD": null,
@@ -2083,7 +1925,7 @@
     },
     {
       "type": "Feature",
-      "id": 29,
+      "id": 27,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2128,9 +1970,9 @@
         ]
       },
       "properties": {
-        "OBJECTID": 29,
+        "OBJECTID": 27,
         "JOB_ID": "SE25110901179",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -2156,7 +1998,7 @@
     },
     {
       "type": "Feature",
-      "id": 30,
+      "id": 28,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2201,16 +2043,16 @@
         ]
       },
       "properties": {
-        "OBJECTID": 30,
+        "OBJECTID": 28,
         "JOB_ID": "SE25111000286",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "SERVICE DOWN NO ",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
         "TOAL_CUST_AFFECTED": 1,
         "OFF_DTTM": 1762784067000,
         "EST_REP_DTTM": 1762843500000,
-        "CAUSE": "Determined upon crew arrival",
+        "CAUSE": "Equipment problem",
         "DEV_NAME": null,
         "DEV_ID": null,
         "DEV_TYPE": null,
@@ -2229,7 +2071,7 @@
     },
     {
       "type": "Feature",
-      "id": 31,
+      "id": 29,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2274,9 +2116,9 @@
         ]
       },
       "properties": {
-        "OBJECTID": 31,
+        "OBJECTID": 29,
         "JOB_ID": "SE25111000540",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -2302,80 +2144,7 @@
     },
     {
       "type": "Feature",
-      "id": 32,
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -83.14561583369435,
-              42.295660023269669
-            ],
-            [
-              -83.145406710387789,
-              42.295269716385079
-            ],
-            [
-              -83.144862843365331,
-              42.295103254676107
-            ],
-            [
-              -83.144337115125083,
-              42.295258506744347
-            ],
-            [
-              -83.144112892036901,
-              42.295662279801945
-            ],
-            [
-              -83.144322009055259,
-              42.296052588904807
-            ],
-            [
-              -83.14486588236592,
-              42.296219053420245
-            ],
-            [
-              -83.145391617792697,
-              42.296063799068683
-            ],
-            [
-              -83.14561583369435,
-              42.295660023269669
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "OBJECTID": 32,
-        "JOB_ID": "SE25111000592",
-        "ADD_DTTM": 1762818317000,
-        "TYCOD": "OUTAGE",
-        "NUM_CUST": 1,
-        "NUM_CUST_RESTORED": 0,
-        "TOAL_CUST_AFFECTED": 1,
-        "OFF_DTTM": 1762797505000,
-        "EST_REP_DTTM": 1762857000000,
-        "CAUSE": "Determined upon crew arrival",
-        "DEV_NAME": null,
-        "DEV_ID": null,
-        "DEV_TYPE": null,
-        "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "In Progres",
-        "DISPATCH_DTTM": null,
-        "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762857000000,
-        "CIRCUIT_EST_DTTM": null,
-        "CIRCUIT_EST_ENDDTTM": null,
-        "STORM_MODE": "NORMAL",
-        "SERVICE_CENTER": "RFD",
-        "SHAPE_Length": 514.83091811720919,
-        "SHAPE_Area": 19993.684254923763
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 33,
+      "id": 30,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2420,9 +2189,9 @@
         ]
       },
       "properties": {
-        "OBJECTID": 33,
+        "OBJECTID": 30,
         "JOB_ID": "SE25111000685",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -2448,153 +2217,7 @@
     },
     {
       "type": "Feature",
-      "id": 34,
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -83.281031282440836,
-              42.429428221934948
-            ],
-            [
-              -83.280820862865312,
-              42.429038165642503
-            ],
-            [
-              -83.280275469605172,
-              42.42887235368606
-            ],
-            [
-              -83.279748951745788,
-              42.42902823302326
-            ],
-            [
-              -83.279525123916329,
-              42.429432272534839
-            ],
-            [
-              -83.279735536305338,
-              42.42982233035319
-            ],
-            [
-              -83.280280936751993,
-              42.429988145101078
-            ],
-            [
-              -83.280807461797906,
-              42.42983226350961
-            ],
-            [
-              -83.281031282440836,
-              42.429428221934948
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "OBJECTID": 34,
-        "JOB_ID": "SE25111000701",
-        "ADD_DTTM": 1762818317000,
-        "TYCOD": "OUTAGE",
-        "NUM_CUST": 1,
-        "NUM_CUST_RESTORED": 0,
-        "TOAL_CUST_AFFECTED": 1,
-        "OFF_DTTM": 1762801267000,
-        "EST_REP_DTTM": 1762861200000,
-        "CAUSE": "Determined upon crew arrival",
-        "DEV_NAME": null,
-        "DEV_ID": null,
-        "DEV_TYPE": null,
-        "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "In Progres",
-        "DISPATCH_DTTM": null,
-        "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762861200000,
-        "CIRCUIT_EST_DTTM": null,
-        "CIRCUIT_EST_ENDDTTM": null,
-        "STORM_MODE": "NORMAL",
-        "SERVICE_CENTER": "RFD",
-        "SHAPE_Length": 515.93102651109064,
-        "SHAPE_Area": 20079.223046070412
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 35,
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -83.059323168038532,
-              42.439755869940278
-            ],
-            [
-              -83.059114101325818,
-              42.439365405237496
-            ],
-            [
-              -83.058569208427315,
-              42.439198530047143
-            ],
-            [
-              -83.058042050967444,
-              42.439353381323258
-            ],
-            [
-              -83.057816750799248,
-              42.439756982362425
-            ],
-            [
-              -83.058025811223743,
-              42.440147449265673
-            ],
-            [
-              -83.058570710410464,
-              42.440314327232372
-            ],
-            [
-              -83.059097875056864,
-              42.440159473690436
-            ],
-            [
-              -83.059323168038532,
-              42.439755869940278
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "OBJECTID": 35,
-        "JOB_ID": "SE25111000719",
-        "ADD_DTTM": 1762818317000,
-        "TYCOD": "OUTAGE",
-        "NUM_CUST": 1,
-        "NUM_CUST_RESTORED": 0,
-        "TOAL_CUST_AFFECTED": 1,
-        "OFF_DTTM": 1762802664000,
-        "EST_REP_DTTM": 1762818900000,
-        "CAUSE": "Determined upon crew arrival",
-        "DEV_NAME": null,
-        "DEV_ID": null,
-        "DEV_TYPE": null,
-        "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "In Progres",
-        "DISPATCH_DTTM": null,
-        "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762818900000,
-        "CIRCUIT_EST_DTTM": null,
-        "CIRCUIT_EST_ENDDTTM": null,
-        "STORM_MODE": "NORMAL",
-        "SERVICE_CENTER": "CAN",
-        "SHAPE_Length": 516.01610219801182,
-        "SHAPE_Area": 20085.845567781114
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 36,
+      "id": 31,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2639,15 +2262,15 @@
         ]
       },
       "properties": {
-        "OBJECTID": 36,
+        "OBJECTID": 31,
         "JOB_ID": "SE25111000732",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
         "TOAL_CUST_AFFECTED": 1,
         "OFF_DTTM": 1762803485000,
-        "EST_REP_DTTM": 1762819800000,
+        "EST_REP_DTTM": 1762863000000,
         "CAUSE": "Equipment problem",
         "DEV_NAME": null,
         "DEV_ID": null,
@@ -2656,7 +2279,7 @@
         "EVENT_STATUS": "In Progres",
         "DISPATCH_DTTM": null,
         "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762819800000,
+        "EST_REP_ENDDTTM": 1762863000000,
         "CIRCUIT_EST_DTTM": null,
         "CIRCUIT_EST_ENDDTTM": null,
         "STORM_MODE": "NORMAL",
@@ -2667,7 +2290,7 @@
     },
     {
       "type": "Feature",
-      "id": 37,
+      "id": 32,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2712,15 +2335,15 @@
         ]
       },
       "properties": {
-        "OBJECTID": 37,
+        "OBJECTID": 32,
         "JOB_ID": "SE25111000771",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
         "TOAL_CUST_AFFECTED": 1,
         "OFF_DTTM": 1762805645000,
-        "EST_REP_DTTM": 1762821900000,
+        "EST_REP_DTTM": 1762865100000,
         "CAUSE": "Equipment problem",
         "DEV_NAME": null,
         "DEV_ID": null,
@@ -2729,7 +2352,7 @@
         "EVENT_STATUS": "In Progres",
         "DISPATCH_DTTM": null,
         "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762821900000,
+        "EST_REP_ENDDTTM": 1762865100000,
         "CIRCUIT_EST_DTTM": null,
         "CIRCUIT_EST_ENDDTTM": null,
         "STORM_MODE": "NORMAL",
@@ -2740,7 +2363,7 @@
     },
     {
       "type": "Feature",
-      "id": 38,
+      "id": 33,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2785,16 +2408,16 @@
         ]
       },
       "properties": {
-        "OBJECTID": 38,
+        "OBJECTID": 33,
         "JOB_ID": "SE25111000858",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
         "TOAL_CUST_AFFECTED": 1,
         "OFF_DTTM": 1762810828000,
         "EST_REP_DTTM": 1762827000000,
-        "CAUSE": "Determined upon crew arrival",
+        "CAUSE": "Equipment problem",
         "DEV_NAME": null,
         "DEV_ID": null,
         "DEV_TYPE": null,
@@ -2813,80 +2436,7 @@
     },
     {
       "type": "Feature",
-      "id": 39,
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -83.181021083681713,
-              42.442671252381018
-            ],
-            [
-              -83.180811244417853,
-              42.442281012013616
-            ],
-            [
-              -83.180266001176378,
-              42.442114720665991
-            ],
-            [
-              -83.179739122194249,
-              42.442270136171132
-            ],
-            [
-              -83.179514599068767,
-              42.442673978285029
-            ],
-            [
-              -83.179724431146084,
-              42.443064220845173
-            ],
-            [
-              -83.180269681574103,
-              42.443230514976001
-            ],
-            [
-              -83.180796566844435,
-              42.443075097212741
-            ],
-            [
-              -83.181021083681713,
-              42.442671252381018
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "OBJECTID": 39,
-        "JOB_ID": "SE25111000867",
-        "ADD_DTTM": 1762818317000,
-        "TYCOD": "OUTAGE",
-        "NUM_CUST": 1,
-        "NUM_CUST_RESTORED": 0,
-        "TOAL_CUST_AFFECTED": 1,
-        "OFF_DTTM": 1762811150000,
-        "EST_REP_DTTM": 1762827300000,
-        "CAUSE": "Determined upon crew arrival",
-        "DEV_NAME": null,
-        "DEV_ID": null,
-        "DEV_TYPE": null,
-        "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "In Progres",
-        "DISPATCH_DTTM": null,
-        "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762827300000,
-        "CIRCUIT_EST_DTTM": null,
-        "CIRCUIT_EST_ENDDTTM": null,
-        "STORM_MODE": "NORMAL",
-        "SERVICE_CENTER": "RFD",
-        "SHAPE_Length": 516.04017553356744,
-        "SHAPE_Area": 20087.719825254575
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 40,
+      "id": 34,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2931,16 +2481,16 @@
         ]
       },
       "properties": {
-        "OBJECTID": 40,
+        "OBJECTID": 34,
         "JOB_ID": "SE25111000886",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
         "TOAL_CUST_AFFECTED": 1,
         "OFF_DTTM": 1762812509000,
         "EST_REP_DTTM": 1762828800000,
-        "CAUSE": "Determined upon crew arrival",
+        "CAUSE": "Equipment problem",
         "DEV_NAME": null,
         "DEV_ID": null,
         "DEV_TYPE": null,
@@ -2959,7 +2509,7 @@
     },
     {
       "type": "Feature",
-      "id": 41,
+      "id": 35,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3004,9 +2554,9 @@
         ]
       },
       "properties": {
-        "OBJECTID": 41,
+        "OBJECTID": 35,
         "JOB_ID": "SE25111000895",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -3032,7 +2582,7 @@
     },
     {
       "type": "Feature",
-      "id": 42,
+      "id": 36,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3077,16 +2627,16 @@
         ]
       },
       "properties": {
-        "OBJECTID": 42,
+        "OBJECTID": 36,
         "JOB_ID": "SE25111000909",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
         "TOAL_CUST_AFFECTED": 1,
         "OFF_DTTM": 1762815763000,
         "EST_REP_DTTM": 1762832100000,
-        "CAUSE": "Determined upon crew arrival",
+        "CAUSE": "Equipment problem",
         "DEV_NAME": null,
         "DEV_ID": null,
         "DEV_TYPE": null,
@@ -3105,7 +2655,7 @@
     },
     {
       "type": "Feature",
-      "id": 43,
+      "id": 37,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3150,9 +2700,9 @@
         ]
       },
       "properties": {
-        "OBJECTID": 43,
+        "OBJECTID": 37,
         "JOB_ID": "SE25111000922",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -3164,7 +2714,7 @@
         "DEV_ID": null,
         "DEV_TYPE": null,
         "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "New",
+        "EVENT_STATUS": "In Progres",
         "DISPATCH_DTTM": null,
         "CREW_STATUS": null,
         "EST_REP_ENDDTTM": 1762833600000,
@@ -3178,7 +2728,153 @@
     },
     {
       "type": "Feature",
-      "id": 44,
+      "id": 38,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.167265025429117,
+              42.416423660090913
+            ],
+            [
+              -83.16705536133675,
+              42.416033393561278
+            ],
+            [
+              -83.166510383996595,
+              42.415867035882748
+            ],
+            [
+              -83.165983691864042,
+              42.416022387819567
+            ],
+            [
+              -83.165759175026778,
+              42.416426203432387
+            ],
+            [
+              -83.165968831932616,
+              42.416816471496617
+            ],
+            [
+              -83.1665138164593,
+              42.416982831962009
+            ],
+            [
+              -83.167040514880057,
+              42.416827477762112
+            ],
+            [
+              -83.167265025429117,
+              42.416423660090913
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 38,
+        "JOB_ID": "SE25111000944",
+        "ADD_DTTM": 1762824616000,
+        "TYCOD": "OUTAGE",
+        "NUM_CUST": 1,
+        "NUM_CUST_RESTORED": 0,
+        "TOAL_CUST_AFFECTED": 1,
+        "OFF_DTTM": 1762820901000,
+        "EST_REP_DTTM": 1762837200000,
+        "CAUSE": "Determined upon crew arrival",
+        "DEV_NAME": null,
+        "DEV_ID": null,
+        "DEV_TYPE": null,
+        "DEV_TYPE_NAME": "Single Customer",
+        "EVENT_STATUS": "New",
+        "DISPATCH_DTTM": null,
+        "CREW_STATUS": null,
+        "EST_REP_ENDDTTM": 1762837200000,
+        "CIRCUIT_EST_DTTM": null,
+        "CIRCUIT_EST_ENDDTTM": null,
+        "STORM_MODE": "NORMAL",
+        "SERVICE_CENTER": "RFD",
+        "SHAPE_Length": 515.82389227981207,
+        "SHAPE_Area": 20070.884552831638
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.995368446818858,
+              42.446433792537313
+            ],
+            [
+              -82.995159758296893,
+              42.446043210359818
+            ],
+            [
+              -82.994614978586114,
+              42.44587602880614
+            ],
+            [
+              -82.994087605530567,
+              42.446030583844482
+            ],
+            [
+              -82.993861867882813,
+              42.446434057687192
+            ],
+            [
+              -82.994070549218264,
+              42.446824642067938
+            ],
+            [
+              -82.994615336115572,
+              42.446991826392996
+            ],
+            [
+              -82.995142715459309,
+              42.44683726974894
+            ],
+            [
+              -82.995368446818858,
+              42.446433792537313
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "JOB_ID": "SE25111000945",
+        "ADD_DTTM": 1762824616000,
+        "TYCOD": "OUTAGE",
+        "NUM_CUST": 1,
+        "NUM_CUST_RESTORED": 0,
+        "TOAL_CUST_AFFECTED": 1,
+        "OFF_DTTM": 1762818646000,
+        "EST_REP_DTTM": 1762837200000,
+        "CAUSE": "Determined upon crew arrival",
+        "DEV_NAME": null,
+        "DEV_ID": null,
+        "DEV_TYPE": null,
+        "DEV_TYPE_NAME": "Single Customer",
+        "EVENT_STATUS": "In Progres",
+        "DISPATCH_DTTM": null,
+        "CREW_STATUS": null,
+        "EST_REP_ENDDTTM": 1762837200000,
+        "CIRCUIT_EST_DTTM": null,
+        "CIRCUIT_EST_ENDDTTM": null,
+        "STORM_MODE": "NORMAL",
+        "SERVICE_CENTER": "CAN",
+        "SHAPE_Length": 516.07121559956761,
+        "SHAPE_Area": 20090.13624762986
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3223,7 +2919,7 @@
         ]
       },
       "properties": {
-        "OBJECTID": 44,
+        "OBJECTID": 40,
         "JOB_ID": "SW25042902955",
         "ADD_DTTM": null,
         "TYCOD": null,
@@ -3251,7 +2947,7 @@
     },
     {
       "type": "Feature",
-      "id": 45,
+      "id": 41,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3296,9 +2992,9 @@
         ]
       },
       "properties": {
-        "OBJECTID": 45,
+        "OBJECTID": 41,
         "JOB_ID": "SW25111000218",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -3324,7 +3020,7 @@
     },
     {
       "type": "Feature",
-      "id": 46,
+      "id": 42,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3369,9 +3065,9 @@
         ]
       },
       "properties": {
-        "OBJECTID": 46,
+        "OBJECTID": 42,
         "JOB_ID": "SW25111000477",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -3397,7 +3093,7 @@
     },
     {
       "type": "Feature",
-      "id": 47,
+      "id": 43,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3442,9 +3138,9 @@
         ]
       },
       "properties": {
-        "OBJECTID": 47,
+        "OBJECTID": 43,
         "JOB_ID": "SW25111000566",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -3470,80 +3166,7 @@
     },
     {
       "type": "Feature",
-      "id": 48,
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -83.746965752050656,
-              42.283879372947418
-            ],
-            [
-              -83.746752918701958,
-              42.283490185344718
-            ],
-            [
-              -83.746207567662651,
-              42.283326611417522
-            ],
-            [
-              -83.74568344471183,
-              42.283484647265169
-            ],
-            [
-              -83.745463153549636,
-              42.283889599023595
-            ],
-            [
-              -83.745675979711805,
-              42.284278789475756
-            ],
-            [
-              -83.746221337937641,
-              42.284442365582962
-            ],
-            [
-              -83.746745467176694,
-              42.284284327485494
-            ],
-            [
-              -83.746965752050656,
-              42.283879372947418
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "OBJECTID": 48,
-        "JOB_ID": "SW25111000677",
-        "ADD_DTTM": 1762818317000,
-        "TYCOD": "OUTAGE",
-        "NUM_CUST": 1,
-        "NUM_CUST_RESTORED": 0,
-        "TOAL_CUST_AFFECTED": 1,
-        "OFF_DTTM": 1762800206000,
-        "EST_REP_DTTM": 1762859700000,
-        "CAUSE": "Equipment problem",
-        "DEV_NAME": null,
-        "DEV_ID": null,
-        "DEV_TYPE": null,
-        "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "In Progres",
-        "DISPATCH_DTTM": null,
-        "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762859700000,
-        "CIRCUIT_EST_DTTM": null,
-        "CIRCUIT_EST_ENDDTTM": null,
-        "STORM_MODE": "NORMAL",
-        "SERVICE_CENTER": "ANN",
-        "SHAPE_Length": 514.73425452049958,
-        "SHAPE_Area": 19986.17703572724
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 49,
+      "id": 44,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3588,24 +3211,24 @@
         ]
       },
       "properties": {
-        "OBJECTID": 49,
+        "OBJECTID": 44,
         "JOB_ID": "SW25111000711",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
         "TOAL_CUST_AFFECTED": 1,
         "OFF_DTTM": 1762802004000,
-        "EST_REP_DTTM": 1762818600000,
+        "EST_REP_DTTM": 1762861800000,
         "CAUSE": "Equipment problem",
         "DEV_NAME": null,
         "DEV_ID": null,
         "DEV_TYPE": null,
         "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "In Progres",
+        "EVENT_STATUS": "Pending",
         "DISPATCH_DTTM": null,
         "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762818600000,
+        "EST_REP_ENDDTTM": 1762861800000,
         "CIRCUIT_EST_DTTM": null,
         "CIRCUIT_EST_ENDDTTM": null,
         "STORM_MODE": "NORMAL",
@@ -3616,153 +3239,7 @@
     },
     {
       "type": "Feature",
-      "id": 50,
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -83.748398217280808,
-              42.274553779321401
-            ],
-            [
-              -83.748185407288318,
-              42.274164593939531
-            ],
-            [
-              -83.747640133504106,
-              42.274001027043603
-            ],
-            [
-              -83.747116092299976,
-              42.274159069663654
-            ],
-            [
-              -83.74689584246029,
-              42.274564024193033
-            ],
-            [
-              -83.747108647062902,
-              42.274953211761122
-            ],
-            [
-              -83.747653928033628,
-              42.275116780838651
-            ],
-            [
-              -83.748177974627666,
-              42.274958736632129
-            ],
-            [
-              -83.748398217280808,
-              42.274553779321401
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "OBJECTID": 50,
-        "JOB_ID": "SW25111000745",
-        "ADD_DTTM": 1762818317000,
-        "TYCOD": "OUTAGE",
-        "NUM_CUST": 1,
-        "NUM_CUST_RESTORED": 0,
-        "TOAL_CUST_AFFECTED": 1,
-        "OFF_DTTM": 1762804308000,
-        "EST_REP_DTTM": 1762820400000,
-        "CAUSE": "Equipment problem",
-        "DEV_NAME": null,
-        "DEV_ID": null,
-        "DEV_TYPE": null,
-        "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "In Progres",
-        "DISPATCH_DTTM": null,
-        "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762820400000,
-        "CIRCUIT_EST_DTTM": null,
-        "CIRCUIT_EST_ENDDTTM": null,
-        "STORM_MODE": "NORMAL",
-        "SERVICE_CENTER": "ANN",
-        "SHAPE_Length": 514.65782911842098,
-        "SHAPE_Area": 19980.24253710642
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 51,
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -83.621728833514169,
-              42.235701203296863
-            ],
-            [
-              -83.621516943396529,
-              42.235311780741576
-            ],
-            [
-              -83.620972339755525,
-              42.235147604907908
-            ],
-            [
-              -83.620448305737909,
-              42.235305061859847
-            ],
-            [
-              -83.620227373178622,
-              42.23570976911882
-            ],
-            [
-              -83.620439257008059,
-              42.23609919387399
-            ],
-            [
-              -83.620983866937252,
-              42.236263372552919
-            ],
-            [
-              -83.62150790814141,
-              42.236105913336289
-            ],
-            [
-              -83.621728833514169,
-              42.235701203296863
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "OBJECTID": 51,
-        "JOB_ID": "SW25111000785",
-        "ADD_DTTM": 1762818317000,
-        "TYCOD": "OUTAGE",
-        "NUM_CUST": 1,
-        "NUM_CUST_RESTORED": 0,
-        "TOAL_CUST_AFFECTED": 1,
-        "OFF_DTTM": 1762801028000,
-        "EST_REP_DTTM": 1762822800000,
-        "CAUSE": "Equipment problem",
-        "DEV_NAME": null,
-        "DEV_ID": null,
-        "DEV_TYPE": null,
-        "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "In Progres",
-        "DISPATCH_DTTM": null,
-        "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762822800000,
-        "CIRCUIT_EST_DTTM": null,
-        "CIRCUIT_EST_ENDDTTM": null,
-        "STORM_MODE": "NORMAL",
-        "SERVICE_CENTER": "ANN",
-        "SHAPE_Length": 514.33926765580998,
-        "SHAPE_Area": 19955.51552093857
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 52,
+      "id": 45,
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3807,15 +3284,15 @@
         ]
       },
       "properties": {
-        "OBJECTID": 52,
+        "OBJECTID": 45,
         "JOB_ID": "SW25111000795",
-        "ADD_DTTM": 1762818317000,
+        "ADD_DTTM": 1762824616000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
         "TOAL_CUST_AFFECTED": 1,
         "OFF_DTTM": 1762803883000,
-        "EST_REP_DTTM": 1762823400000,
+        "EST_REP_DTTM": 1762866600000,
         "CAUSE": "Equipment problem",
         "DEV_NAME": null,
         "DEV_ID": null,
@@ -3824,159 +3301,13 @@
         "EVENT_STATUS": "In Progres",
         "DISPATCH_DTTM": null,
         "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762823400000,
+        "EST_REP_ENDDTTM": 1762866600000,
         "CIRCUIT_EST_DTTM": null,
         "CIRCUIT_EST_ENDDTTM": null,
         "STORM_MODE": "NORMAL",
         "SERVICE_CENTER": "ANN",
         "SHAPE_Length": 515.54885206766244,
         "SHAPE_Area": 20049.486458060892
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 53,
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -83.187986075117394,
-              42.126825624652419
-            ],
-            [
-              -83.187777250949807,
-              42.126435397725643
-            ],
-            [
-              -83.187234736790174,
-              42.126269140076012
-            ],
-            [
-              -83.186710530295997,
-              42.126424587813645
-            ],
-            [
-              -83.18648718396355,
-              42.12682844220749
-            ],
-            [
-              -83.186696001842904,
-              42.127218672043192
-            ],
-            [
-              -83.18723852229077,
-              42.127384931864562
-            ],
-            [
-              -83.187762735971461,
-              42.12722948181964
-            ],
-            [
-              -83.187986075117394,
-              42.126825624652419
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "OBJECTID": 53,
-        "JOB_ID": "SW25111000856",
-        "ADD_DTTM": 1762818317000,
-        "TYCOD": "OUTAGE",
-        "NUM_CUST": 1,
-        "NUM_CUST_RESTORED": 0,
-        "TOAL_CUST_AFFECTED": 1,
-        "OFF_DTTM": 1762780171000,
-        "EST_REP_DTTM": 1762827000000,
-        "CAUSE": "Equipment problem",
-        "DEV_NAME": null,
-        "DEV_ID": null,
-        "DEV_TYPE": null,
-        "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "Pending",
-        "DISPATCH_DTTM": null,
-        "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762827000000,
-        "CIRCUIT_EST_DTTM": null,
-        "CIRCUIT_EST_ENDDTTM": null,
-        "STORM_MODE": "NORMAL",
-        "SERVICE_CENTER": "NPT",
-        "SHAPE_Length": 513.44898631716046,
-        "SHAPE_Area": 19886.491523819808
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 54,
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -83.405817386841875,
-              42.192615461650036
-            ],
-            [
-              -83.405606986130962,
-              42.192225636901682
-            ],
-            [
-              -83.405063325721002,
-              42.192060423901765
-            ],
-            [
-              -83.404539110243704,
-              42.192216880820531
-            ],
-            [
-              -83.40431693531437,
-              42.192621166111898
-            ],
-            [
-              -83.404527328838753,
-              42.193010993079625
-            ],
-            [
-              -83.405070996435228,
-              42.193176208253661
-            ],
-            [
-              -83.405595218200745,
-              42.193019748385211
-            ],
-            [
-              -83.405817386841875,
-              42.192615461650036
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "OBJECTID": 54,
-        "JOB_ID": "SW25111000904",
-        "ADD_DTTM": 1762818317000,
-        "TYCOD": "OUTAGE",
-        "NUM_CUST": 1,
-        "NUM_CUST_RESTORED": 0,
-        "TOAL_CUST_AFFECTED": 1,
-        "OFF_DTTM": 1762814059000,
-        "EST_REP_DTTM": 1762830900000,
-        "CAUSE": "Determined upon crew arrival",
-        "DEV_NAME": null,
-        "DEV_ID": null,
-        "DEV_TYPE": null,
-        "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "In Progres",
-        "DISPATCH_DTTM": null,
-        "CREW_STATUS": null,
-        "EST_REP_ENDDTTM": 1762830900000,
-        "CIRCUIT_EST_DTTM": null,
-        "CIRCUIT_EST_ENDDTTM": null,
-        "STORM_MODE": "NORMAL",
-        "SERVICE_CENTER": "WWS",
-        "SHAPE_Length": 513.98665762734606,
-        "SHAPE_Area": 19928.163018319268
       }
     }
   ]
