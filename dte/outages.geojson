@@ -820,7 +820,7 @@
       "properties": {
         "OBJECTID": 11,
         "JOB_ID": "NE25121600716",
-        "ADD_DTTM": 1765968317000,
+        "ADD_DTTM": 1765970115000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -1039,7 +1039,7 @@
       "properties": {
         "OBJECTID": 14,
         "JOB_ID": "NW25121600510",
-        "ADD_DTTM": 1765968317000,
+        "ADD_DTTM": 1765970115000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -1112,7 +1112,7 @@
       "properties": {
         "OBJECTID": 15,
         "JOB_ID": "NW25121600749",
-        "ADD_DTTM": 1765968317000,
+        "ADD_DTTM": 1765970115000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -1185,7 +1185,7 @@
       "properties": {
         "OBJECTID": 16,
         "JOB_ID": "NW25121600773",
-        "ADD_DTTM": 1765968317000,
+        "ADD_DTTM": 1765970115000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -1258,14 +1258,14 @@
       "properties": {
         "OBJECTID": 17,
         "JOB_ID": "NW25121700021",
-        "ADD_DTTM": 1765968317000,
+        "ADD_DTTM": 1765970115000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
         "TOAL_CUST_AFFECTED": 1,
         "OFF_DTTM": 1765956210000,
         "EST_REP_DTTM": 1765972800000,
-        "CAUSE": "Determined upon crew arrival",
+        "CAUSE": "Equipment problem",
         "DEV_NAME": null,
         "DEV_ID": null,
         "DEV_TYPE": null,
@@ -1477,7 +1477,7 @@
       "properties": {
         "OBJECTID": 20,
         "JOB_ID": "SE25121600728",
-        "ADD_DTTM": 1765968317000,
+        "ADD_DTTM": 1765970115000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -1550,7 +1550,7 @@
       "properties": {
         "OBJECTID": 21,
         "JOB_ID": "SE25121700003",
-        "ADD_DTTM": 1765968317000,
+        "ADD_DTTM": 1765970115000,
         "TYCOD": "OUTAGE",
         "NUM_CUST": 1,
         "NUM_CUST_RESTORED": 0,
@@ -1562,7 +1562,7 @@
         "DEV_ID": null,
         "DEV_TYPE": null,
         "DEV_TYPE_NAME": "Single Customer",
-        "EVENT_STATUS": "Pending",
+        "EVENT_STATUS": "In Progres",
         "DISPATCH_DTTM": null,
         "CREW_STATUS": null,
         "EST_REP_ENDDTTM": 1766007600000,
@@ -1645,6 +1645,79 @@
         "SERVICE_CENTER": null,
         "SHAPE_Length": 514.11153716572937,
         "SHAPE_Area": 19937.847992889809
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.329508951189979,
+              42.397354867550391
+            ],
+            [
+              -83.32929833668004,
+              42.396964900976464
+            ],
+            [
+              -83.328753095235186,
+              42.396799321972921
+            ],
+            [
+              -83.328226969041282,
+              42.396955425664892
+            ],
+            [
+              -83.328003569708216,
+              42.397359561060547
+            ],
+            [
+              -83.328214177929922,
+              42.397749529825646
+            ],
+            [
+              -83.328759426561305,
+              42.397915111629089
+            ],
+            [
+              -83.329285559941752,
+              42.397759005017321
+            ],
+            [
+              -83.329508951189979,
+              42.397354867550391
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "JOB_ID": "SW25121700039",
+        "ADD_DTTM": 1765970115000,
+        "TYCOD": "OUTAGE",
+        "NUM_CUST": 1,
+        "NUM_CUST_RESTORED": 0,
+        "TOAL_CUST_AFFECTED": 1,
+        "OFF_DTTM": 1765950953000,
+        "EST_REP_DTTM": 1765986000000,
+        "CAUSE": "Determined upon crew arrival",
+        "DEV_NAME": null,
+        "DEV_ID": null,
+        "DEV_TYPE": null,
+        "DEV_TYPE_NAME": "Single Customer",
+        "EVENT_STATUS": "New",
+        "DISPATCH_DTTM": null,
+        "CREW_STATUS": null,
+        "EST_REP_ENDDTTM": 1765986000000,
+        "CIRCUIT_EST_DTTM": null,
+        "CIRCUIT_EST_ENDDTTM": null,
+        "STORM_MODE": "NORMAL",
+        "SERVICE_CENTER": "WWS",
+        "SHAPE_Length": 515.66682081269562,
+        "SHAPE_Area": 20058.663227090659
       }
     }
   ]
