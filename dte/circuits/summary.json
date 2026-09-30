@@ -1,0 +1,36 @@
+{
+  "snapshots_from": "2025-09-16T03:09:29Z",
+  "snapshots_to": "2026-09-23T22:44:56Z",
+  "footprints": 89134,
+  "device_nodes": 86222,
+  "nodes_by_level": {
+    "Customer site": 55007,
+    "Transformer": 16365,
+    "Device (I)": 6204,
+    "Device (II)": 7311,
+    "Circuit": 995,
+    "Subtransmission": 232,
+    "Substation": 105,
+    "Source": 3
+  },
+  "parent_confidence": {
+    "inferred": 47751,
+    "ambiguous": 15880,
+    "none": 19186,
+    "observed": 3405
+  },
+  "circuits": 995,
+  "partial_circuits": 5423,
+  "observed_links": 3651,
+  "assigned_to_circuit_by_level": {
+    "Customer site": 0.359,
+    "Transformer": 0.354,
+    "Device (I)": 0.384,
+    "Device (II)": 0.38
+  },
+  "validation": {
+    "held_out_edges": 1855,
+    "exact_parent": 0.786,
+    "parent_in_ancestor_chain": 0.817
+  }
+}
